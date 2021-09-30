@@ -18,7 +18,7 @@ app.get('/', function(request, response) {
     response.render('index.html');
 });
 
-var port = '5000';
+var port = process.env.PORT || 5000;
 app.set('port', port);
 app.listen(port, function() {
     console.log("Server running in %d",port);
