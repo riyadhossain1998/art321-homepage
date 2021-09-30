@@ -17,6 +17,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(request, response) {
     response.render('index.html');
 });
+app.get('/soon', function(request, response) {
+    response.render('soon.html');
+});
 
 var port = process.env.PORT || 5000;
 app.set('port', port);
