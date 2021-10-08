@@ -20,6 +20,10 @@ app.get('/', function(request, response) {
 app.get('/soon', function(request, response) {
     response.render('soon.html');
 });
+app.get('/a2', function(request, response) {
+    response.render('a2.html');
+});
+
 
 var port = process.env.PORT || 5000;
 app.set('port', port);

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/scripts/a1.js"></script>
+    <title>A2: Image Modification</title>
+</head>
+<body>
+    <div class="jumbotron hero-section" style="background-image: url(/images/bg.jpg);">
+        <div class="text-center">
+            <h1 class="display-5 fw-bold francois">Assignment 2: Image Modification</h1>
+            <p class="lead mb-4">Assignment Description</p>
+            <div class="row">
+                <div class="col-md-6"><!-- Link to assignment -->
+                    <a href="https://people.ucalgary.ca/~jparker/art321/assignments/assignment2/assignment2.html"><p class="lead mb-4">Link to the assignment</p></a>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead mb-4">Adobe Photoshop</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="container-fluid assignments">
+       
+    </div>
+</body>
+<script>
+    a1Gen(
+        "1. ",
+        "The yellow has been removed from the image in the left. ", 
+        "images/a2/text1.png",
+        "images/a2/text1-ans.png",
+        null
+        )
+    a1Gen(
+        "2. ",
+        "The threshold of the image has been decreased to 97. ", 
+        "images/a2/t2.png",
+        "images/a2/Threshold-97.png",
+        null
+        )
+    a1Gen(
+        "3. ",
+        "The threshold of the image has been decreased to 81. Lowering the threshold further could result in illegible letters but it would clear the blacked out part of the image.  ", 
+        "images/a2/t3.png",
+        "images/a2/Threshold-81.png",
+        null
+        )
+    a1Gen(
+        "4. ",
+        "The threshold of the image has been decreased to 123. There was a only a slight change in the threshold this time and can be considered the best value, lowering it further would result in illegible writing. ", 
+        "images/a2/t4.jpg",
+        "images/a2/Threshold-123.png",
+        null
+        )
+    a1Gen(
+        "5. ",
+        "Edge detection has been applied to this image. It resulted in borders around all three shapes in black. ", 
+        "images/a2/edge-detection.png",
+        "images/a2/edge-detected.png",
+        null
+        )
+    a1Gen(
+        "6. ",
+        "The noise has been reduced in this image in two different methods. The first output was obtained through finding the edges precisely and inverting. The second image is a result of using the noise reduction tool in Photoshop.  ", 
+        "images/a2/noise-reduction.png",
+        "images/a2/noise-reduced.png",
+        "images/a2/noise-reduced-easy.png"
+        )
+</script>
+</html>
