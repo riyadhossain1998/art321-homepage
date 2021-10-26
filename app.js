@@ -23,7 +23,9 @@ app.get('/soon', function(request, response) {
 app.get('/a2', function(request, response) {
     response.render('a2.html');
 });
-
+app.get('/a3', function(request, response) {
+    response.render('a3.html');
+});
 
 var port = process.env.PORT || 5000;
 app.set('port', port);
