@@ -4,4 +4,25 @@
     margin-right: auto;
     width: 50%;
 
+
+
+}
+.hero-section {
+    height: 150vh;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+.double-spaced {
+    line-height: 1.9em;
+}
+
+.text-red {
+    text-align: center;
+    color: red;
+}
+
+.memes img{
+    width: 100%;
 }
