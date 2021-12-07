@@ -26,6 +26,17 @@ app.get('/a2', function(request, response) {
 app.get('/a3', function(request, response) {
     response.render('a3.html');
 });
+app.get('/a4', function(request, response) {
+    response.render('a4.html');
+});
+app.get('/a5', function(request, response) {
+    response.render('a5.html');
+});
+
+app.get('/project', function(request, response) {
+    response.render('project.html');
+});
+
 
 var port = process.env.PORT || 5000;
 app.set('port', port);
