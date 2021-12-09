@@ -1,0 +1,49 @@
+body {
+    background-image: url('/images/project/room.png');
+    background-size: 100%;
+
+}
+
+.start {
+    position: fixed;
+    bottom: 15%;
+    padding: 0;
+    
+
+}
+
+.startbutton {
+    background: none;
+
+    border: none;
+}
+.startbutton img {
+    width: 50%;
+    height: 50%;
+}
+
+.startbutton:hover {
+    transform: scale(0.75);
+    transition: all .2s ease-in-out;
+    
+}
+
+
+
+.francois {
+    font-family: 'Francois One', sans-serif;
+    
+}
+
+.card-block {
+    background-color: rgba(245, 245, 245, 0.4);
+    
+}
+
+.card-transparent {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    padding: 0;
+    
+}
