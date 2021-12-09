@@ -1,0 +1,28 @@
+{
+    "story":[
+        {
+            "characterName":"Johnny",
+              "decisionCheck": true,
+              "dialogueText": "Finally home! what should I do?",
+              "decisions": ["Play PS4", "Go to bed"],
+              "imageURL": "url('/images/project/room1.png')"
+        },
+        {
+            "characterName":"Johnny",
+              "decisionCheck": true,
+              "dialogueText": "What the...'",
+              "decisions": ["..."],
+              "imageURL": "url('/images/project/room2.png')"
+        },
+        {
+            "characterName":"???",
+              "decisionCheck": true,
+              "dialogueText": "Hey Johnny right? How's it going?'",
+              "decisions": ["Are you a time traveller here to kill me?",
+                            "How do you know my name?",
+                            "Bro you can't just portal into people's rooms you know"],
+              "imageURL": "url('/images/project/room2.png')"
+        }
+    ]
+    
+}
