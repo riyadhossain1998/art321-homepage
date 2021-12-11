@@ -1,6 +1,6 @@
 body {
-    background-image: url('/images/project/room.png');
-    background-size: 100%;
+    
+
 
 }
 
@@ -26,6 +26,10 @@ body {
     transform: scale(0.75);
     transition: all .2s ease-in-out;
     
+}
+
+.memes img{
+    width: 100%;
 }
 
 
