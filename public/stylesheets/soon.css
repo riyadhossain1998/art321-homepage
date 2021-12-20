@@ -36,3 +36,8 @@
     font-family: 'Francois One', sans-serif;
     
 }
+
+svg:hover {
+    transform: scale(1.5);
+    transition: ease-in;
+}

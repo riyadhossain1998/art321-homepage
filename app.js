@@ -32,6 +32,18 @@ app.get('/a4', function(request, response) {
 app.get('/a5', function(request, response) {
     response.render('a5.html');
 });
+app.get('/a6', function(request, response) {
+    response.render('a6.html');
+});
+app.get('/a7', function(request, response) {
+    response.render('a7.html');
+});
+app.get('/a8', function(request, response) {
+    response.render('a8.html');
+});
+app.get('/a9', function(request, response) {
+    response.render('a9.html');
+});
 
 app.get('/project', function(request, response) {
     response.render('project.html');
