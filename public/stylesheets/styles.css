@@ -46,7 +46,7 @@
 
 .igID {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Kalam', cursive;
     
 }
@@ -71,3 +71,6 @@
     text-decoration: none;
 }
 
+.memes img{
+    width: 100%;
+}
