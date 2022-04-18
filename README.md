@@ -1,5 +1,5 @@
 # art321-homepage
 
-A website for my ART321 course assignments. 
+<p>A website for my ART321 course assignments. </p>
 
-rhossain.herokuapp.com
+<p>rhossain.herokuapp.com</p>
